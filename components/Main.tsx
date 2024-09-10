@@ -13,9 +13,7 @@ type Props = {
 function Main({ path }: Props) {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="h-screen">
-        <Hero />
-      </div>
+      <Hero />
       <Experience />
       {/* {path === Path.Hero && <Hero />} */}
       {/* {path === Path.Exp && <Experience />} */}
