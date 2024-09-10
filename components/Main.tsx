@@ -12,11 +12,15 @@ type Props = {
 
 function Main({ path }: Props) {
   return (
-    <div className="h-5/6 flex flex-col items-center justify-center">
-      {path === Path.Hero && <Hero />}
-      {path === Path.Exp && <Experience />}
-      {path === Path.Project && <Project />}
-      {path === Path.Contact && <Contact />}
+    <div className="flex flex-col items-center justify-center">
+      <div className="h-screen">
+        <Hero />
+      </div>
+      <Experience />
+      {/* {path === Path.Hero && <Hero />} */}
+      {/* {path === Path.Exp && <Experience />} */}
+      {/* {path === Path.Project && <Project />} */}
+      {/* {path === Path.Contact && <Contact />} */}
     </div>
   );
 }

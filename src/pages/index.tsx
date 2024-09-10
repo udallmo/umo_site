@@ -26,7 +26,7 @@ export default function Home() {
   const colors = getColors();
   return (
     <div
-      className={`text-white h-screen bg-gradient-to-r ${colors.start} ${colors.middle} ${colors.end} w-full background-animate py-3`}
+      className={`text-white bg-gradient-to-r ${colors.start} ${colors.middle} ${colors.end} w-full background-animate py-3`}
     >
       <div className=" h-full w-full bg-gray-800">
         <Header switchRenders={switchRenders} colors={colors} />

@@ -1,6 +1,8 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import { useLottie } from "lottie-react";
+import arrowAnimation from "./arrow.json";
 
 type Props = {};
 
@@ -13,7 +15,13 @@ function Hero({}: Props) {
     delaySpeed: 2000,
   });
 
-  // INSERT LOTTIE HERE
+  const options = {
+    animationData: arrowAnimation,
+    loop: true
+  };
+
+  const { View } = useLottie(options);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -33,19 +41,11 @@ function Hero({}: Props) {
       <h2 className="text-sm uppercase text-gray-500 pb-2 pt-2 tracking-[15px]">
         software Engineer
       </h2>
-      <p className="p-5 text-gray-400 xl:mx-40">
-        Hello, I am Udall, a software engineer with 4 years of experience in the
-        tech industry. I graduated from the University of Waterloo with
-        a degree in Computer Engineering, and since then, I have been passionately
-        pursuing growth, being challenged, and nurturing my curiosity. My career
-        has been marked by my constant pursuit of knowledge and my ability to
-        tackle difficult problems with creativity and innovation. I am always
-        eager to learn and take on new challenges that stretch my skills and
-        push me out of my comfort zone. My goal as a software engineer is to
-        continue growing and evolving with the fast-paced tech industry, always
-        striving to improve my abilities and make a meaningful impact in the
-        world of software development.
+      <p className="px-20 py-5 text-gray-400 xl:mx-40">
+      Currently, I&apos;m part of the engineering team at Maple work on building the next workforce management suite for nurses and long-care facility workers. Previously, I was a Software Engineer at Varicent <br /><br />
+      As a software developer, I&apos;m passionate about creating and designing seamless, user-centered experiences by integrating business, marketing, and UX/UI principles. My focus is on delivering intuitive and efficient solutions that enhance customer satisfaction when interacting with online products and services
       </p>
+      {View}
     </motion.div>
   );
 }

@@ -4,12 +4,6 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-const experienceList = [
-  "Experience 1",
-  "Experience 2",
-  "Experience 3",
-  "Experience 4",
-];
 function Experience({}: Props) {
   const [current, setCurrent] = useState(0);
   const data = COMPANYDATA[current];
