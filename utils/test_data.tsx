@@ -17,6 +17,8 @@ export type CompanyInput = {
   description: string
 }
 
+// TODO: Add Maple Description
+// TODO: Add links to the companies
 export const COMPANYDATA: CompanyInput[] = [
 
   {
@@ -75,7 +77,7 @@ export const COMPANYDATA: CompanyInput[] = [
   },
   {
     id: 6,
-    company: "University of Waterloo - Recruitment Office",
+    company: "University of Waterloo",
     role: "Software Developer, Intern",
     year: "2019",
     stack: ["PHP", "JavaScript", "SQL", "Drupal"],

@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import { useLottie } from "lottie-react";
 import arrowAnimation from "./arrow.json";
+import {Link} from 'react-scroll';
 
 type Props = {};
 
@@ -42,11 +43,14 @@ function Hero({}: Props) {
       <h2 className="text-sm uppercase text-gray-500 pb-2 pt-2 tracking-[15px]">
         software Engineer
       </h2>
-      <p className="px-20 py-5 text-gray-400 xl:mx-40 text-sm">
+      <p className="px-20 py-5 text-gray-400 xl:mx-40 text-sm tracking-wider">
       Currently, I&apos;m part of the engineering team at Maple work on building the next workforce management suite for nurses and long-care facility workers. Previously, I was a Software Engineer at Varicent <br /><br />
       As a software developer, I&apos;m passionate about creating and designing seamless, user-centered experiences by integrating business, marketing, and UX/UI principles. My focus is on delivering intuitive and efficient solutions that enhance customer satisfaction when interacting with online products and services
       </p>
+
+      <Link to="section1" smooth={true} duration={500} className="hover:cursor-pointer">
       {View}
+        </Link>
     </motion.div>
     </div>
   );

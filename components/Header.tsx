@@ -1,6 +1,8 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { Path } from "../utils/constant";
+import {Link} from 'react-scroll';
+
 
 type Props = {
   switchRenders: (path: Path) => void;
@@ -17,15 +19,19 @@ const Header = ({ switchRenders, colors }: Props) => {
         <div className=" h-6 w-6 bg-gray-800 rounded-full flex justify-center text-center top-0"></div>
       </div>
       <div className="flex flex-row justify-between px-2 space-x-3">
-        <div className="headerIcon" onClick={() => switchRenders(Path.Exp)}>
-          Experience
-        </div>
-        <div className="headerIcon" onClick={() => switchRenders(Path.Project)}>
+        <Link className="headerIcon" to="section1" smooth={true} duration={500}>
+          Timeline
+        </Link>
+
+        <Link className="headerIcon" to="section2" smooth={true} duration={500}>
           Projects
-        </div>
-        <div className="headerIcon" onClick={() => switchRenders(Path.Contact)}>
-          Contact
-        </div>
+        </Link>
+        <Link className="headerIcon" to="section3" smooth={true} duration={500}>
+          Learnings
+        </Link>
+        <Link className="headerIcon" to="section3" smooth={true} duration={500} hidden>
+          Learnings
+        </Link>
       </div>
     </header>
   );
