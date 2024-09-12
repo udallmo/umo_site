@@ -7,7 +7,7 @@ import {Link} from 'react-scroll';
 
 type Props = {};
 
-const wordList = [`Hi, the name's Udall`, "A Software Engineer", "A Casual Creator"];
+const wordList = [`hi, the name's Udall`, "a software engineer", "a casual creator"];
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({

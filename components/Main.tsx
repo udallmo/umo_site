@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
+import React from "react";
 import { Path } from "../utils/constant";
-import Contact from "./Contact";
 import Experience from "./Experience";
 import Hero from "./Hero";
 import Project from "./Project";
+import Learning from "./Learning";
 
 type Props = {
   path: Path;
@@ -16,8 +15,7 @@ function Main({ path }: Props) {
       <Hero />
       <Experience />
       <Project />
-      {/* {path === Path.Project && <Project />} */}
-      {/* {path === Path.Contact && <Contact />} */}
+      <Learning />
     </div>
   );
 }

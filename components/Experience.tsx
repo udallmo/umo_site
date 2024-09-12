@@ -19,9 +19,14 @@ function Experience({}: Props) {
       transition={{ duration: 2 }}
       className="flex flex-col items-center justify-center"
     >
-      <h3 className="uppercase mb-20 top-24 tracking-[20px] text-gray-500 text-2xl">
-        Timeline
+    <div className="flex flex-col mb-20 top-24 text-center justify-center items-center">
+      <h3 className="lowercase tracking-[20px] text-gray-500 text-2xl">
+        timeline
       </h3>
+      <p className="mt-5 text-gray-400 tracking-wider w-3/4">
+      the history of me.
+      </p>
+    </div>
       <div className="flex flex-row px-20 w-full h-2/3">
       <div className="flex flex-col w-1/2">
         {oddExperience.map(exp => {

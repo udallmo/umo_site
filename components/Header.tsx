@@ -11,7 +11,7 @@ type Props = {
 
 const Header = ({ switchRenders, colors }: Props) => {
   return (
-    <header className="top-0 p-5 flex justify-between">
+    <header className="top-0 p-5 flex justify-between lowercase tracking-widest text-gray-400">
       <div
         onClick={() => switchRenders(Path.Hero)}
         className={`text-white ml-0 h-10 bg-gradient-to-r ${colors.start} ${colors.middle} ${colors.end} w-10 background-animate p-2 rounded-full flex justify-center text-center mb-4`}
