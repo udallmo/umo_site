@@ -110,14 +110,28 @@ export const PROJECTLIST = [
   "China Kitchen Eatery",
 ];
 
-export const PROJECTDATA = [
+export type ProjectInput = {
+  id: number,
+  name: string,
+  desc: string,
+  link?: string, 
+  git?: string,
+  image: string,
+  stack: string[]
+}
+
+export const PROJECTDATA: ProjectInput[] = [
   {
     id: 0,
     name: "Sorting Algorithm Visualizers",
     desc: "Sorting Algorithm Visualizer is a react site for visualizing basic sorting algorithms",
-    link: "https://udallmo.github.io/sorting-algo-visualizer/",
     git: "https://github.com/udallmo/sorting-algo-visualizer",
     image: "/images/sorting.png",
+    stack: [
+      "TypeScript",
+      "JavaScript",
+      "TailwindCSS"
+    ]
   },
   {
     id: 1,
@@ -126,14 +140,21 @@ export const PROJECTDATA = [
     link: "https://www.etsy.com/ca/listing/1416775752/custom-video-barcodes",
     git: "https://github.com/udallmo/video_barcode_converter",
     image: "/images/movie.png",
+    stack: [
+      "Python",
+      "OpenCV",
+    ]
   },
   {
     id: 2,
     name: "Spotify ETL",
     desc: "Spotify ETL pipeline for top hit music",
-    link: "https://github.com/udallmo/spotify-ETL",
     git: "https://github.com/udallmo/spotify-ETL",
     image: "/images/etl.png",
+    stack: [
+      "Python",
+      "AWS"
+    ]
   },
   {
     id: 3,
@@ -142,5 +163,10 @@ export const PROJECTDATA = [
     link: "https://china-kitchen-web.vercel.app/",
     git: "https://github.com/udallmo/china_kitchen_web",
     image: "/images/china.PNG",
+    stack: [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
   },
 ];

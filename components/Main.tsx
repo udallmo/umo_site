@@ -15,8 +15,7 @@ function Main({ path }: Props) {
     <div className="flex flex-col items-center justify-center">
       <Hero />
       <Experience />
-      {/* {path === Path.Hero && <Hero />} */}
-      {/* {path === Path.Exp && <Experience />} */}
+      <Project />
       {/* {path === Path.Project && <Project />} */}
       {/* {path === Path.Contact && <Contact />} */}
     </div>

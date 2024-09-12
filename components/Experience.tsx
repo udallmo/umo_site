@@ -22,7 +22,7 @@ function Experience({}: Props) {
       <h3 className="uppercase mb-20 top-24 tracking-[20px] text-gray-500 text-2xl">
         Timeline
       </h3>
-      <div className="flex flex-row px-10 w-full h-2/3">
+      <div className="flex flex-row px-20 w-full h-2/3">
       <div className="flex flex-col w-1/2">
         {oddExperience.map(exp => {
           return        <>
@@ -43,7 +43,7 @@ function Experience({}: Props) {
       </div>
       <div
       onClick={() => setHideOld(!hideOld)} 
-      className="hover:text-white hover:cursor-pointer text-gray-400 text-xs tracking-widest p-3 rounded-full border-blue-400 border-2 my-5">{hideOld ? "show more" : 'show less'}</div>
+      className="hover:text-white hover:cursor-pointer text-gray-400 text-sm tracking-widest p-3 my-5">{hideOld ? "show more" : 'show less'}</div>
     </motion.div>
     </div>
   );
