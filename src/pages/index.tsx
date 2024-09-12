@@ -31,7 +31,6 @@ export default function Home() {
       <div className=" h-full w-full bg-gray-800">
         <Header switchRenders={switchRenders} colors={colors} />
         <Main path={destination} />
-        <Footer />
       </div>
     </div>
   );

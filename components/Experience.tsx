@@ -36,7 +36,7 @@ function Experience({}: Props) {
           </> 
         })}
       </div>
-<div className="border-l-2 border-dashed h-23"></div>
+<motion.div className="border-l-2 border-dashed h-23"></motion.div>
 <div className="flex flex-col w-1/2">
 {evenExperience.map(exp => {
           return        <>

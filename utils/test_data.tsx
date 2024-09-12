@@ -29,7 +29,7 @@ export const COMPANYDATA: CompanyInput[] = [
     stack: ["React", "SQL", "NestJS", "React", "TypeScript", "Postgres"],
     link: "https://maple.com/",
     description: 
-      "Architected and deployed a write-back service to enable 50+ enterprise clients to write to and update multiple databases concurrently.  Enabled support for multiple expressions within an internal library used in 2+ products via integration of multi-expression handling. Collaborated in a team of 8 in the development and design of custom user-defined database models Created REST APIs and UIs with forms to streamline data handling, simplifying the process of data management and ingestion",
+      "Collaborated with a team of engineers to develop a workforce management platform, leading the leave banks project by managing system design and stakeholder presentations. Additionally, I implemented CRON-based scheduling, integrated payroll services, and contributed to product features, resulting in a 40% increase in customer inquiries"
   },
   {
     id: 1,
@@ -39,7 +39,7 @@ export const COMPANYDATA: CompanyInput[] = [
     stack: ["React", "SQL", "C#", ".Net", "TypeScript", "AWS"],
     link: "https://www.varicent.com/",
     description: 
-      "Architected and deployed a write-back service to enable 50+ enterprise clients to write to and update multiple databases concurrently.  Enabled support for multiple expressions within an internal library used in 2+ products via integration of multi-expression handling. Collaborated in a team of 8 in the development and design of custom user-defined database models Created REST APIs and UIs with forms to streamline data handling, simplifying the process of data management and ingestion",
+      "Architected and deployed a write-back service for 50+ enterprise clients to update multiple databases concurrently and integrated multi-expression handling into an internal library used across products. I also collaborated with a team of 8 to design custom user-defined database models and developed REST APIs and UIs to streamline data management and ingestion"
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ export const COMPANYDATA: CompanyInput[] = [
     link: "https://www.wisesystems.com/",
     stack: ["SQL", "Scala", "Java", "JavaScript", "Python"],
     description: 
-      "Led the development of a real-time delivery optimization feature, working a team of over 10 product engineers. Improved data extraction by 24% through the utilization of JS format libraries and the standardization of preprocessed data. Mitigated 20% of user experience bugs through the creation of error handlers addressing Polymer type compatibility issues",
+      "Led the development of a real-time delivery optimization feature with a team of 10+ engineers and improved data extraction by 24% using JS format libraries and standardized preprocessed data. Additionally, I mitigated 20% of UX bugs by creating error handlers for Polymer type compatibility issues.",
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ export const COMPANYDATA: CompanyInput[] = [
     link: "https://www.routethis.com/",
     stack: ["Java", "React", "Node", "MongoDB", "Firebase", "iOS", "Android"],
     description: 
-      "Created a dashboard utilizing Webpacks that provides technical recommendations for network issues and their resolution. Developed an internet network congestion identifier utilizing GCP, data mining and WebPaks to provide predictive insights. Decreased customer call deflections by 47% by implementing integrated remote WebSocket access through native mobile application",
+      "Created a dashboard using Webpacks to provide technical recommendations for network issues and developed a congestion identifier with GCP and data mining for predictive insights. By implementing integrated remote WebSocket access in a mobile app, I reduced customer call deflections by 47%",
   },
   {
     id: 4,
@@ -69,7 +69,7 @@ export const COMPANYDATA: CompanyInput[] = [
     link: "https://www.cooperators.ca/en/",
     stack: ["Angular", "JavaScript", "Ionic"],
     description:
-      "Developed a hybrid app allowing users to view policy details and make payments to their accounts for 10 000+ users. Worked with UI/UX designers to integrate unique web designs achieving well-praised results from investors and users. Built infrastructures to handle client’s API data to remove redundancies and developed classes using TypeScript",
+      "Developed a hybrid app for 10,000+ users to view policy details and make payments, collaborating with UI/UX designers to create highly praised designs. I also built infrastructure to handle API data, eliminating redundancies, and developed TypeScript classes for improved functionality",
   },
   {
     id: 5,
@@ -79,7 +79,7 @@ export const COMPANYDATA: CompanyInput[] = [
     year: "2019",
     stack: ["NodeJS", "JavaScript", "Postgres", "D3"],
     description:
-      "Maintained and managed 15+ automated microservices for collecting and managing financial data and files, serving 10,000+ users. Deployed D3 data visualizers for microservices analytics, providing 12+ sales engineers with an internal tool for data visualization. Increased automated data collection success rate from 40% to 70%, achieving the highest success rate since 2016",
+      "Managed 15+ automated microservices for financial data collection and served 10,000+ users, deploying D3 data visualizers to provide 12+ sales engineers with enhanced analytics tools. I increased the automated data collection success rate from 40% to 70%, the highest since 2016",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const COMPANYDATA: CompanyInput[] = [
     link: "https://uwaterloo.ca/",
     stack: ["PHP", "JavaScript", "SQL", "Drupal"],
     description: 
-      "Created a dynamic algorithm allowing users to update and modify program-related content on the website. Improved data form modules by installing security measures and implementing new front-end features. Updated program-related content and enhanced keyword search engine to refine search results using MySQL",
+      "Created a dynamic algorithm for users to update website content, improved data form modules with security measures and new front-end features, and enhanced keyword search functionality using MySQL to refine search results",
   },
   {
     id: 7,
@@ -99,7 +99,7 @@ export const COMPANYDATA: CompanyInput[] = [
     link: "https://www.coulters.ca/",
     stack: ["JavaScript"],
     description: 
-      "Developed 3 websites integrating Django CMS for more efficient web updates and content management. Developed automated test cases using Selenium IDE for a client’s website, decreasing debugging time. Decreased loading times by 15% by modifying Ajax calls from traffic cameras to display real-time data",
+      "Developed three websites with Django CMS for efficient content management, created automated test cases using Selenium IDE to reduce debugging time, and decreased loading times by 15% by optimizing Ajax calls for real-time data from traffic cameras",
   },
 ];
 
