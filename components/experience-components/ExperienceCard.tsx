@@ -35,7 +35,7 @@ export const ExperienceCard: React.FC<Props> = ({data, hideOld}:Props) => {
       </p>
 
       <div className="flex flex-row gap-3 text-sm mt-2 tracking-wider">
-        {stack.map(s => <div key={s}>{s}</div>)}
+        {stack.map((s, i) => <div key={`${i}-${s}`}>{s}</div>)}
       </div>
     </div>
     </motion.a>

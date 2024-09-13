@@ -8,7 +8,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <footer className="fixed flex-col right-0 bottom-0 p-5 justify-end flex space-y-4 mt-auto text-gray-400">
+    <footer className="fixed flex-col right-0 bottom-0 px-5 py-10 justify-end flex space-y-4 mt-auto text-gray-400">
       <a
         href="/udall_mo_resume.pdf" target="_blank" download="udall_mo_resume.pdf"
         className="text-2xl hover:text-white"

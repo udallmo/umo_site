@@ -18,9 +18,7 @@ export type CompanyInput = {
   link: string,
 }
 
-// TODO: Add Maple Description
 export const COMPANYDATA: CompanyInput[] = [
-
   {
     id: 0,
     company: "Maple",

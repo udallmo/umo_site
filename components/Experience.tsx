@@ -10,7 +10,7 @@ function Experience({}: Props) {
   const evenExperience = COMPANYDATA.filter(company => company.id%2 !== 0)
 
   const [hideOld, setHideOld] = useState<boolean>(true)
-  // TODO: Add Animations for showing the old
+
   return (
     <div id="section1" className="w-full mb-2">
     <motion.div
@@ -30,19 +30,19 @@ function Experience({}: Props) {
       <div className="flex flex-row px-20 w-full h-2/3">
       <div className="flex flex-col w-1/2">
         {oddExperience.map(exp => {
-          return        <>
-          <ExperienceCard data={exp} hideOld={hideOld}/>
+          return        <div key={exp.id}>
+          <ExperienceCard data={exp} hideOld={hideOld} key={exp.id}/>
           <div className="pt-2"></div>
-          </> 
+          </div> 
         })}
       </div>
 <motion.div className="border-l-2 border-dashed h-23"></motion.div>
 <div className="flex flex-col w-1/2">
 {evenExperience.map(exp => {
-          return        <>
+          return        <div key={exp.id}>
           <div className="pt-7"></div>
-          <ExperienceCard data={exp} hideOld={hideOld}/>
-          </> 
+          <ExperienceCard data={exp} hideOld={hideOld} key={exp.id}/>
+          </div> 
         })}
       </div>
       </div>

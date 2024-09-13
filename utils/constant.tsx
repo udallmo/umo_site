@@ -1,8 +1,6 @@
 export enum Path {
-  Hero,
-  Exp,
-  Project,
-  Contact,
+  Home,
+  Back,
 }
 
 export const PRE = "from-"
