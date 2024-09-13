@@ -24,7 +24,7 @@ function Model({}: Props) {
       </p>
     </div>
     <div className="flex flex-row gap-10 px-20"> 
-        {COOKINGDATA.map(data  => <CookingCard data={data}/>)}
+        {COOKINGDATA.map(data  => <CookingCard key={data.id} data={data}/>)}
       </div> 
     </motion.div>
     </div>
